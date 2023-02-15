@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "ibase=water; $WATER" | bc + "ibase=stir; $STIR" | bc | xargs -I{} sh -c 'echo "obase=bestchol; {}" | bc'
+echo $((bestchol#$((water#$WATER)) + $((stir.#$STIR))))
